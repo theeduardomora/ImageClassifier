@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ImageClassifier/static/css/main.94e71a0c.css",
-    "main.js": "/ImageClassifier/static/js/main.f2209eee.js",
-    "static/js/787.95bc7841.chunk.js": "/ImageClassifier/static/js/787.95bc7841.chunk.js",
+    "main.css": "/ImageClassifier/static/css/main.edefc8ac.css",
+    "main.js": "/ImageClassifier/static/js/main.cd924d5f.js",
+    "static/js/787.9197039b.chunk.js": "/ImageClassifier/static/js/787.9197039b.chunk.js",
     "index.html": "/ImageClassifier/index.html",
-    "main.94e71a0c.css.map": "/ImageClassifier/static/css/main.94e71a0c.css.map",
-    "main.f2209eee.js.map": "/ImageClassifier/static/js/main.f2209eee.js.map",
-    "787.95bc7841.chunk.js.map": "/ImageClassifier/static/js/787.95bc7841.chunk.js.map"
+    "main.edefc8ac.css.map": "/ImageClassifier/static/css/main.edefc8ac.css.map",
+    "main.cd924d5f.js.map": "/ImageClassifier/static/js/main.cd924d5f.js.map",
+    "787.9197039b.chunk.js.map": "/ImageClassifier/static/js/787.9197039b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e71a0c.css",
-    "static/js/main.f2209eee.js"
+    "static/css/main.edefc8ac.css",
+    "static/js/main.cd924d5f.js"
   ]
 }
