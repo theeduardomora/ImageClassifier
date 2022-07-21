@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7c39e51c227bbc3cffef2f3e082e8968fb351816
 * { 
   margin: 0;
   padding: 0;
@@ -9,11 +12,20 @@
 .App { 
   min-height: 100vh; 
   position:relative; 
+<<<<<<< HEAD
   background-color: #dbd9d9;
 }
 
 
 
+=======
+  background-color: #313131;
+}
+.camera { 
+  position: relative; 
+
+}
+>>>>>>> 7c39e51c227bbc3cffef2f3e082e8968fb351816
 
 .result { 
   position:fixed; 
@@ -22,6 +34,7 @@
   width: 100%;
   height: 100%; 
   display:flex;
+<<<<<<< HEAD
   align-items: center;
   transition: 0.2s; 
   background-color: #dbd9d9; 
@@ -69,10 +82,27 @@ button.Reset {
   background-size: 200%; 
   color: rgb(2, 6, 10);
 
+=======
+  align-items: center; 
+  background-color: rgb(0, 0, 0, 0.9);
+  transition: 0.4s; 
+
+}
+
+.result.hasPhoto { 
+  left: 0; 
+}
+
+video { 
+  width: 100%;
+  max-width: 100%; 
+  height: auto; 
+>>>>>>> 7c39e51c227bbc3cffef2f3e082e8968fb351816
 }
 
 button { 
   position: absolute; 
+<<<<<<< HEAD
   top: 6%; 
   left: 10%; 
 
@@ -139,4 +169,22 @@ button {
     text-align:left; 
   }
   
+=======
+  bottom: 20px; 
+  left: 20px; 
+
+  appearance: none; 
+  border: none; 
+  padding: 8px 16px; 
+  background-image: rgb(185, 222, 240); 
+  background-position: 0%; 
+  background-size: 200%; 
+  color: rgb(185, 222, 240);
+
+}
+
+canvas { 
+  width: 100%; 
+  height: 100%; 
+>>>>>>> 7c39e51c227bbc3cffef2f3e082e8968fb351816
 }
