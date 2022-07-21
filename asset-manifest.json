@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ImageClassifier/static/css/main.edefc8ac.css",
+    "main.css": "/ImageClassifier/static/css/main.52fb3ce4.css",
     "main.js": "/ImageClassifier/static/js/main.cd924d5f.js",
     "static/js/787.9197039b.chunk.js": "/ImageClassifier/static/js/787.9197039b.chunk.js",
     "index.html": "/ImageClassifier/index.html",
-    "main.edefc8ac.css.map": "/ImageClassifier/static/css/main.edefc8ac.css.map",
+    "main.52fb3ce4.css.map": "/ImageClassifier/static/css/main.52fb3ce4.css.map",
     "main.cd924d5f.js.map": "/ImageClassifier/static/js/main.cd924d5f.js.map",
     "787.9197039b.chunk.js.map": "/ImageClassifier/static/js/787.9197039b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edefc8ac.css",
+    "static/css/main.52fb3ce4.css",
     "static/js/main.cd924d5f.js"
   ]
 }
