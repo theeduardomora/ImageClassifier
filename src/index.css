@@ -1,0 +1,142 @@
+
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Fira Sans', 'sans-serif'; 
+}
+.App { 
+  min-height: 100vh; 
+  position:relative; 
+  background-color: #dbd9d9;
+}
+
+
+
+
+.result { 
+  position:fixed; 
+  top: 0; 
+  left: 100%; 
+  width: 100%;
+  height: 100%; 
+  display:flex;
+  align-items: center;
+  transition: 0.2s; 
+  background-color: #dbd9d9; 
+}
+
+.result.hasPhoto { 
+  left:0%;
+
+}
+
+
+
+
+
+button.Reset { 
+  position:absolute;
+  top: 6%;
+  right: 10%;
+  left: auto; 
+
+  appearance: none;  
+  padding: 8px 16px; 
+  background-image: rgb(243, 245, 247); 
+  background-position: 0%; 
+  background-size: 200%; 
+  color: rgb(2, 6, 10);
+  
+}
+
+
+
+
+#selectionboxdiv { 
+  position:absolute; 
+}
+
+#filetag { 
+  margin-top:8%; 
+
+  appearance: none; 
+  
+  padding: 8px 16px; 
+  background-image: rgb(243, 245, 247); 
+  background-position: 0%; 
+  background-size: 200%; 
+  color: rgb(2, 6, 10);
+
+}
+
+button { 
+  position: absolute; 
+  top: 6%; 
+  left: 10%; 
+
+  appearance: none; 
+  
+  padding: 8px 16px; 
+  background-image: rgb(243, 245, 247); 
+  background-position: 0%; 
+  background-size: 200%; 
+  color: rgb(2, 6, 10);
+  
+}
+
+
+#preview { 
+  position:absolute; 
+  left:10%; 
+  display:none; 
+}
+
+#displayimg { 
+  width:300px; 
+  height:300px; 
+}
+
+.analyzed { 
+  display:none; 
+}
+
+.analyzed.true{
+  position:absolute; 
+  display:block; 
+  margin-left:35%;
+  margin-top:5%;
+}
+
+.imageandlabel { 
+  position:absolute; 
+  left:10%;
+  width:100%; 
+  display:flex;
+  flex-direction:row; 
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .imageandlabel { 
+    display:flex; 
+    flex-direction: column;
+  }
+  .analyzed.true { 
+    position:absolute; 
+    margin-left:0%; 
+
+  }
+  #displayimg{
+    position:relative; 
+  }
+  .analyzed.true{
+    position:relative;
+  }
+  #class1, #class2, #class3{ 
+    text-align:left; 
+  }
+  
+}
